@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/IdeaProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IdeaProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company/Company.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Company/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servers/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Servers/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servers/.settings/org.eclipse.wst.server.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Servers/.settings/org.eclipse.wst.server.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_project/.idea/mini_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_project/project.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_project/프로젝트.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/.settings/.jsdtscope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/xyz/itwill/servlet/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/webapp/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bin/xyz/itwill/dbcp/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bin/xyz/itwill/dbcp/user.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lib/ojdbc11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lib/ucp11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/dbcp/ConnectionPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/dbcp/ConnectionPoolApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/dbcp/DataSourceApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/dbcp/PropertiesApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/dbcp/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/dbcp/user.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/CallableStatementApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/ConnectionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/ConnectionFactoryApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/DeleteStudentApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/ExecuteApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/InsertStudentApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/PreparedStatementApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/ResultSetCursorApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/ResultSetMetaDataApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/SelectEmpApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/SelectStudentApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/SqlMinusApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/StatementApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/StaticBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/StaticBlockApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/TransatctionControlApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/jdbc/UpdateStudentApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/student/JdbcDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/student/StudentCUIApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/student/StudentDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/student/StudentDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/student/StudentDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/xyz/itwill/student/StudentGUIApp.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RDzicwxZXpALWJerhxnKJdxpLK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="" />
+      <created>1686799568957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686799568957</updated>
+    </task>
+    <servers />
+  </component>
+</project>
