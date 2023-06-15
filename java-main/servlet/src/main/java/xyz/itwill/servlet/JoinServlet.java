@@ -54,12 +54,13 @@ public class JoinServlet extends HttpServlet {
 		}
 		
 		//서블릿을 POST 방식으로 요청한 경우 사용자 입력값을 리퀘스트 메세지 몸체부에 저장하여 전달
-		// => 리퀘스트 메세지 몸체부에 저장되어 전달되는 값은 기본적으로 문자형태를 서유럽어
+		// > 리퀘스트 메세지 몸체부에 저장되어 전달되는 값은 기본적으로 문자형태를 서유럽어
 		//(ISO-8859-1)의 반환받아 사용
-		// => 리퀘스트 메세지 몸체부에 저장되어 전달되는 값에 대한 캐릭터셋 변경
+		// > 리퀘스트 메세지 몸체부에 저장되어 전달되는 값에 대한 캐릭터셋 변경
+		
 		//HttpServletRequest.setCharacterEncoding(String encoding) : 리퀘스트 메세지 몸체부에
 		//저장되어 전달되는 값에 대한 문자형태를 변경하는 메소드
-		// => GET 방식으로 요청한 경우 리퀘스트 메세지 몸체부를 사용하지 않으므로 메소드 사용 불필요
+		// > GET 방식으로 요청한 경우 리퀘스트 메세지 몸체부를 사용하지 않으므로 메소드 사용 불필요
 		request.setCharacterEncoding("utf-8");
 		
 		//서블릿을 요청할 때 전달된 값을 반환받아 저장
@@ -72,9 +73,10 @@ public class JoinServlet extends HttpServlet {
 		String email=request.getParameter("email");
 		String gender=request.getParameter("gender");
 		//동일한 이름으로 전달되는 값이 여러개 있는 경우 getParameterValues() 메소드 호출 
-		//String hobby=request.getParameter("hobby");//첫번째 전달값만 반환받아 저장
-		//HttpServletRequest.getParameter(String name) : 매개변수로 전달받은 이름의 모든
-		//전달값을 문자열 배열(String[])로 반환하는 메소드
+		
+		//String hobby=request.getParameter("hobby"); //첫번째 전달값만 반환받아 저장
+		
+		//HttpServletRequest.getParameter(String name) : 매개변수로 전달받은 이름의 모든 전달값을 문자열 배열(String[])로 반환하는 메소드
 		String[] hobby=request.getParameterValues("hobby");
 		String job=request.getParameter("job");
 		String profile=request.getParameter("profile");

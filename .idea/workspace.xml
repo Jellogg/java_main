@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="51Day">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/FirstServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/LifeCycleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/LifeCycleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/JoinServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/JoinServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-main/servlet/tern-project.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686808500993</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="51Day">
+      <created>1686816479845</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686816479845</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
