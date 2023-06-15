@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="what">
-      <change beforePath="$PROJECT_DIR$/.idea/IdeaProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IdeaProjects.iml" afterDir="false" />
+    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="51Day">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-main/java_2/src/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-main/java_3/src/module-info.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/FirstServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/LifeCycleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/LifeCycleServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +82,26 @@
       <option name="project" value="LOCAL" />
       <updated>1686800226429</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="what">
+      <created>1686808419481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686808419481</updated>
+    </task>
+    <task id="LOCAL-00003" summary="51Day">
+      <created>1686808500993</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686808500993</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="what" />
-    <option name="LAST_COMMIT_MESSAGE" value="what" />
+    <MESSAGE value="51Day" />
+    <option name="LAST_COMMIT_MESSAGE" value="51Day" />
   </component>
 </project>
