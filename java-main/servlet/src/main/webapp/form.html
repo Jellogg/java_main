@@ -147,7 +147,7 @@ legend {
 			result=false;
 		}
 		
-		var passwdReg= /^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[~!@#$%^&*_-]).{6,20}$/g;
+		var passwdReg=/^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[~!@#$%^&*_-]).{6,20}$/g;
 		if($("#passwd").val()=="") {
 			$("#passwdMsg").text("비밀번호를 반드시 입력해 주세요.");
 			result=false;
@@ -156,7 +156,10 @@ legend {
 			result=false;
 		}
 		
-		if($("#passwd").val()!=$("#repasswd").val()) {
+		if($("#passwd").val()=="") {
+			$("#repasswdMsg").text("비밀번호 확인를 반드시 입력해 주세요.");
+			result=false;
+		} else if($("#passwd").val()!=$("#repasswd").val()) {
 			$("#repasswdMsg").text("비밀번호가 맞지 않습니다.다시 입력해 주세요.");
 			result=false;
 		}
@@ -166,7 +169,7 @@ legend {
 			result=false;
 		}
 		
-		var emailReg = /^([a-zA-Z0-9_-] + @[a-zA-Z0-9_-] + (\.[a-zA-Z0-9_-]+)+)*$/g;
+		var emailReg=/^([a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+)*$/g;
 		if($("#email").val()=="") {
 			$("#emailMsg").text("이메일을 반드시 입력해 주세요.");
 			result=false;
@@ -200,9 +203,6 @@ legend {
 		$("#id").focus();
 		$(".error").text("");
 	});
-	
-	
 	</script>
 </body>
 </html>
-

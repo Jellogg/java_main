@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="51Day">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-main/servlet/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/JoinServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/JoinServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-main/servlet/tern-project.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/LifeCycleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/LifeCycleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/SendImageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/SendImageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/UploadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/UploadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/webapp/fileupload.html" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/webapp/fileupload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/webapp/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/webapp/form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,19 +30,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="tomcat" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
@@ -47,9 +52,6 @@
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="contextPath" value="/IdeaProjects" />
       <option name="docBase" value="$PROJECT_DIR$/java-main/web/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="port" value="8000" />
       <option name="tomcatInfo">
@@ -103,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686816479845</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="51Day">
+      <created>1686820907603</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686820907603</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
