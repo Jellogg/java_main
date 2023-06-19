@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="51Day">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-main/servlet/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/JoinServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/JoinServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/LifeCycleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/LifeCycleServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/SendImageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/SendImageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/UploadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/UploadServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/webapp/fileupload.html" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/webapp/fileupload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/webapp/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/webapp/form.html" afterDir="false" />
+    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="52Day">
+      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/CookieReadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/CookieReadServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,12 +105,34 @@
       <option name="project" value="LOCAL" />
       <updated>1686820907603</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="51Day">
+      <created>1686904887873</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686904887873</updated>
+    </task>
+    <task id="LOCAL-00007" summary="52Day">
+      <created>1686904953340</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686904953340</updated>
+    </task>
+    <task id="LOCAL-00008" summary="52Day">
+      <created>1686905574410</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686905574410</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="what" />
     <MESSAGE value="51Day" />
-    <option name="LAST_COMMIT_MESSAGE" value="51Day" />
+    <MESSAGE value="52Day" />
+    <option name="LAST_COMMIT_MESSAGE" value="52Day" />
   </component>
 </project>
