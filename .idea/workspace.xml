@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="54Day">
-      <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/guest/GuestUpdateFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/guest/GuestUpdateFormServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsp/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsp/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsp/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsp/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsp/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsp/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsp/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsp/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsp/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsp/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsp/src/main/webapp/NewFile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsp/src/main/webapp/counter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsp/src/main/webapp/script_element.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-main/servlet/src/main/java/xyz/itwill/servlet/DBCPServlet.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687232531124</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="54Day">
+      <created>1687232967170</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687232967170</updated>
+    </task>
+    <task id="LOCAL-00014" summary="54Day">
+      <created>1687232977237</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1687232977237</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
