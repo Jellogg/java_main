@@ -53,7 +53,7 @@ public class GuestUpdateFormServlet extends HttpServlet {
 		out.println("<h1>방명록 글변경</h1>");
 		out.println("<hr>");
 		out.println("<form action='modify.itwill' method='post' name='modifyForm'>");
-		//방명록 게시글을 구분하기 위한 글번호를 반드시 전달
+		// 방명록 게시글을 구분하기 위한 글번호를 반드시 전달
 		out.println("<input type='hidden' name='num' value='"+guest.getNum()+"'>");
 		out.println("<table>");
 		out.println("<tr>");
