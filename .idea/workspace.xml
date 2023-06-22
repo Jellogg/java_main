@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="54Day">
+    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="55Day">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/server.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/NewFile.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/counter.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/directive/page_errorPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/directive/page_errorPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/directive/include_main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/directive/include_main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/directive/include_sub.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/directive/include_sub.jspf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/directive/page_import.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/directive/page_import.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/directive/site/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/directive/site/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/script/script_element.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/script/script_element.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687253153575</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="54Day">
+      <created>1687402318234</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1687402318234</updated>
+    </task>
+    <task id="LOCAL-00019" summary="55Day">
+      <created>1687402329876</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1687402329876</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,6 +220,7 @@
     <MESSAGE value="52Day" />
     <MESSAGE value="53Day" />
     <MESSAGE value="54Day" />
-    <option name="LAST_COMMIT_MESSAGE" value="54Day" />
+    <MESSAGE value="55Day" />
+    <option name="LAST_COMMIT_MESSAGE" value="55Day" />
   </component>
 </project>
