@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="55Day">
+    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="56Day">
       <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/NewFile.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +217,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687434166589</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="55Day">
+      <created>1687486127106</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1687486127106</updated>
+    </task>
+    <task id="LOCAL-00023" summary="56Day">
+      <created>1687486137861</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1687486137861</updated>
+    </task>
+    <task id="LOCAL-00024" summary="56Day">
+      <created>1687499712949</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1687499712949</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -227,6 +248,7 @@
     <MESSAGE value="53Day" />
     <MESSAGE value="54Day" />
     <MESSAGE value="55Day" />
-    <option name="LAST_COMMIT_MESSAGE" value="55Day" />
+    <MESSAGE value="56Day" />
+    <option name="LAST_COMMIT_MESSAGE" value="56Day" />
   </component>
 </project>
