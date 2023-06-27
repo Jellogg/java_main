@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="56Day">
+    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="57Day">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp/src/main/java/xyz/itwill/dao/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/java/xyz/itwill/dao/StudentDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/NewFile.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/action/useBean/non_useBean_action.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/action/useBean/non_useBean_action.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/action/useBean/useBean_action.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/action/useBean/useBean_action.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/action/useBean/useBean_display.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/action/useBean/useBean_display.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/student/deleteStudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/student/deleteStudent.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +257,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687511442055</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="57Day">
+      <created>1687768426990</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1687768426990</updated>
+    </task>
+    <task id="LOCAL-00028" summary="57Day">
+      <created>1687768449775</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1687768449775</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -265,6 +282,7 @@
     <MESSAGE value="54Day" />
     <MESSAGE value="55Day" />
     <MESSAGE value="56Day" />
-    <option name="LAST_COMMIT_MESSAGE" value="56Day" />
+    <MESSAGE value="57Day" />
+    <option name="LAST_COMMIT_MESSAGE" value="57Day" />
   </component>
 </project>
