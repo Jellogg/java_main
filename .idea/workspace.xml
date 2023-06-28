@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="58Day">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/java/xyz/itwill/dao/MemberDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/java/xyz/itwill/dao/MemberDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/admin/admin_main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/admin/admin_main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/cart/cart_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/cart/cart_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/header_main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/header_main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/member/member_join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/member/member_join.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/member/member_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/member/member_login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/member/member_login_action.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/member/member_login_action.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/member/member_logout_action.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/member/member_logout_action.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/member/member_mypage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/member/member_mypage.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="59Day" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -290,7 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687859030443</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="58Day">
+      <created>1687942284868</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1687942284868</updated>
+    </task>
+    <task id="LOCAL-00032" summary="59Day">
+      <created>1687942299397</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1687942299397</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -303,7 +305,8 @@
     <MESSAGE value="56Day" />
     <MESSAGE value="57Day" />
     <MESSAGE value="58Day" />
-    <option name="LAST_COMMIT_MESSAGE" value="58Day" />
+    <MESSAGE value="59Day" />
+    <option name="LAST_COMMIT_MESSAGE" value="59Day" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
