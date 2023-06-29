@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="59Day">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/java/xyz/itwill/dao/MemberDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/java/xyz/itwill/dao/MemberDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/member/member_logout_action.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/member/member_logout_action.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/review/review_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/review/review_list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +310,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687942416598</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="59Day">
+      <created>1688003335166</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1688003335166</updated>
+    </task>
+    <task id="LOCAL-00036" summary="59Day">
+      <created>1688022234842</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1688022234842</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
