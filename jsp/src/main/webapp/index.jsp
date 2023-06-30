@@ -14,7 +14,7 @@
 	if(worker==null) worker="main_page";
 	
 	String contentPath=group+"/"+worker+".jsp";
-	
+
 	String headerPath="header_main.jsp";
 	if(group.equals("admin")) {
 		headerPath="header_admin.jsp";
