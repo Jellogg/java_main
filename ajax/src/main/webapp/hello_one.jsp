@@ -61,8 +61,11 @@
 		// => method : 요청방식 전달 - GET(검색), POST(삽입), PUT(전체 변경), PATCH(부분 변경), DELETE(삭제)
 		// => url : 요청 웹프로그램의 URL 주소 전달 - 현재 서버의 존재하는 웹프로그램만 요청 가능
 		// => async : false(동기식 통신) 또는 true(비동기식 통신 - 기본) 중 하나를 전달
-		xhr.open("get", "hello_two.jsp", true);//비동기식 요청과 응답 - 요청에 의한 응답 기다림 미발생(다른 작업 가능)
-		//xhr.open("get", "hello_two.jsp", false);//동기식 요청과 응답 - 요청에 의한 응답 기다림 발생(다른 작업 불가능)
+		
+		// xhr.open("get", "hello_two.jsp", true);//비동기식 요청과 응답 - 요청에 의한 응답 기다림 미발생(다른 작업 가능)
+		xhr.open("get", "hello_two.jsp", false);//동기식 요청과 응답 - 요청에 의한 응답 기다림 발생(다른 작업 불가능)
+		
+		
 		
 		//3.XMLHttpRequest 객체로 send() 메소드 호출 - 준비상태가 [2]로 자동 변경
 		//XMLHttpRequest.send(data) : XMLHttpRequest 객체로 웹프로그램을 요청하기 위한 메소드
