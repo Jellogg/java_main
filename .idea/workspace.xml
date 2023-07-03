@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="61Day">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-main/servlet/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-main/servlet/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/java/xyz/itwill/dao/ReviewDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/java/xyz/itwill/dao/ReviewDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/review/review_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/review/review_detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/review/review_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/review/review_list.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="62Day" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -385,7 +378,28 @@
       <option name="project" value="LOCAL" />
       <updated>1688352870622</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="62Day">
+      <created>1688366489123</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1688366489123</updated>
+    </task>
+    <task id="LOCAL-00045" summary="62Day">
+      <created>1688366505498</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1688366505498</updated>
+    </task>
+    <task id="LOCAL-00046" summary="62Day">
+      <created>1688371385778</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1688371385778</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -401,7 +415,8 @@
     <MESSAGE value="59Day" />
     <MESSAGE value="60Day" />
     <MESSAGE value="61Day" />
-    <option name="LAST_COMMIT_MESSAGE" value="61Day" />
+    <MESSAGE value="62Day" />
+    <option name="LAST_COMMIT_MESSAGE" value="62Day" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
