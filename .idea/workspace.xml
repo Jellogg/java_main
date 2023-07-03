@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="61Day" />
+    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="61Day">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-main/servlet/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-main/servlet/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-main/servlet/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp/src/main/java/xyz/itwill/dao/ReviewDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/java/xyz/itwill/dao/ReviewDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/review/review_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/review/review_detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp/src/main/webapp/review/review_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/src/main/webapp/review/review_list.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -371,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688348133808</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="61Day">
+      <created>1688352870622</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1688352870622</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
