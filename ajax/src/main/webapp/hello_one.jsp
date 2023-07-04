@@ -34,23 +34,26 @@
 	}
 	*/
 	
-	//AJAX 프로그램 : 비동기식 통신 기능을 이용하여 DHTML 기능을 구현한 프로그램
+	//AJAX(Asynchronous Javascript + XML) 프로그램 : 비동기식 통신 기능을 이용하여 DHTML 기능을 구현한 프로그램
+	// => XMLHttpRequest 객체를 사용하여 비동기식으로 웹프로그램을 요청하여 실행결과를 HTML 
+	//또는 XML로 응답받아 페이지의 태그 변경 처리
+	//XMLHttpRequest 객체(AJAX Engine) : 비동기식으로 웹프로그램을 요청하여 응답받아 처리하기 위한 객체 
+	
 	//XMLHttpRequest 객체를 저장하기 위한 전역변수 선언
-	// => XMLHttpRequest 객체 : 비동기식으로 웹프로그램을 요청하여 응답받아 처리하기 위한 객체
 	var xhr=null;
 	
 	//페이지에서 검색된 태그를 Element 객체로 반환받아 Click 이벤트가 발생될 경우 호출될 이벤트 처리 함수 등록
 	document.getElementById("btn1").onclick=function() {
-		//AJAX(Asynchronous Javascript + XML) 기능을 이용하여 페이지의 태그 변경
-		// => XMLHttpRequest 객체를 사용하여 비동기식으로 웹프로그램을 요청하여 실행결과를
-		//HTML 또는 XML로 응답받아 페이지의 태그 변경 처리
+		//AJAX 기능을 이용하여 페이지의 태그 변경
 		
-		//1.XMLHttpRequest 객체(AJAX Engine)를 생성하여 전역변수에 저장 - 준비상태 : 0
+		//1.XMLHttpRequest 객체를 생성하여 전역변수에 저장 - 준비상태 : 0
 		xhr=new XMLHttpRequest();
 		
 		//2.XMLHttpRequest 객체의 준비상태(ReadyState)가 변경될 경우 호출될 이벤트 처리 함수 등록
+		//XMLHttpRequest.onreadystatechange : XMLHttpRequest 객체의 준비상태가 변경되는 
+		//이벤트에 대한 이벤트 리스너 속성(프로퍼티)
 		//XMLHttpRequest.readyState : XMLHttpRequest 객체의 준비상태 정보를 저장한 프로퍼티
-		// => XMLHttpRequest 객체의 준비상태 순차적으로 자동 변경
+		// => XMLHttpRequest 객체의 준비상태는 순차적으로 자동 변경
 		// => 0 : XMLHttpRequest 객체 생성, 1 : open() 메소드 호출 - 웹프로그램 요청 설정 
 		//, 2 : send 메소드() 호출 -  웹프로그램 요청, 3 : 웹프로그램 실행, 4 : 실행결과 응답   
 		xhr.onreadystatechange=changeHTML;
@@ -61,11 +64,8 @@
 		// => method : 요청방식 전달 - GET(검색), POST(삽입), PUT(전체 변경), PATCH(부분 변경), DELETE(삭제)
 		// => url : 요청 웹프로그램의 URL 주소 전달 - 현재 서버의 존재하는 웹프로그램만 요청 가능
 		// => async : false(동기식 통신) 또는 true(비동기식 통신 - 기본) 중 하나를 전달
-		
-		// xhr.open("get", "hello_two.jsp", true);//비동기식 요청과 응답 - 요청에 의한 응답 기다림 미발생(다른 작업 가능)
-		xhr.open("get", "hello_two.jsp", false);//동기식 요청과 응답 - 요청에 의한 응답 기다림 발생(다른 작업 불가능)
-		
-		
+		xhr.open("get", "hello_two.jsp", true);//비동기식 요청과 응답 - 요청에 의한 응답 기다림 미발생(다른 작업 가능)
+		//xhr.open("get", "hello_two.jsp", false);//동기식 요청과 응답 - 요청에 의한 응답 기다림 발생(다른 작업 불가능)
 		
 		//3.XMLHttpRequest 객체로 send() 메소드 호출 - 준비상태가 [2]로 자동 변경
 		//XMLHttpRequest.send(data) : XMLHttpRequest 객체로 웹프로그램을 요청하기 위한 메소드
@@ -75,7 +75,7 @@
 		xhr.send(null);//웹프로그램 요청 후 준비상태가 [3]과 [4]로 자동 변경
 	}
 	
-	//XMLHttpRequest 객체의 준비상태가 변경될 때만다 호출되는 이벤트 처리 함수 - 4번 호출
+	//XMLHttpRequest 객체의 준비상태가 변경될 때마다 호출되는 이벤트 처리 함수 - 4번 호출
 	// => 요청에 대한 응답 결과를 제공받아 처리하는 함수
 	function changeHTML() {
 		/* 
@@ -94,8 +94,9 @@
 		if(xhr.readyState==4) {
 			//XMLHttpRequest.status : 웹프로그램 요청에 대한 응답의 상태코드(StatusCode)를 저장한 프로퍼티
 			if(xhr.status==200) {//웹프로그램 요청에 대한 정상적인 실행결과를 받은 경우
-				//XMLHttpRequest.responseText : 웹프로그램 요청에 대한 실행결과를 HTML 형식의
-				//텍스트로 응답받은 경우 응답결과를 저장한 프로퍼티
+				//XMLHttpRequest.responseText : 웹프로그램 요청에 대한 실행결과를 HTML 문서로
+				//응답받은 경우 응답결과가 저장된 프로퍼티
+				//alert(xhr.responseText);
 				document.getElementById("display").innerHTML=xhr.responseText;
 			} else {//웹프로그램 요청에 대한 비정상적인 실행결과를 받은 경우 - 에러코드(4XX 또는 5XX)
 				alert("에러코드 = "+xhr.status);
@@ -111,13 +112,3 @@
 	</script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
