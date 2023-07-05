@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="62Day" />
+    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="62Day">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-06-27__11_46__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-06-27_오전_11_46_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/src/main/webapp/data_one.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/webapp/data_one.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/src/main/webapp/news/csv_one.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/webapp/news/csv_one.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/src/main/webapp/news/json_one.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/webapp/news/json_one.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/src/main/webapp/news/xml_one.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/webapp/news/xml_one.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
