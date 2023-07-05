@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="62Day">
+    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="64Day">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-06-27__11_46__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-06-27_오전_11_46_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/src/main/webapp/data_one.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/webapp/data_one.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/src/main/webapp/news/csv_one.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/webapp/news/csv_one.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/src/main/webapp/news/json_one.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/webapp/news/json_one.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/src/main/webapp/news/xml_one.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/webapp/news/xml_one.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/src/main/webapp/jquery/welcome_one.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/webapp/jquery/welcome_one.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,27 +81,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686799568957</updated>
-    </task>
-    <task id="LOCAL-00001" summary="what">
-      <created>1686800226429</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1686800226429</updated>
-    </task>
-    <task id="LOCAL-00002" summary="what">
-      <created>1686808419481</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1686808419481</updated>
-    </task>
-    <task id="LOCAL-00003" summary="51Day">
-      <created>1686808500993</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1686808500993</updated>
     </task>
     <task id="LOCAL-00004" summary="51Day">
       <created>1686816479845</created>
@@ -427,7 +404,28 @@
       <option name="project" value="LOCAL" />
       <updated>1688437446374</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="63Day">
+      <created>1688523389294</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1688523389295</updated>
+    </task>
+    <task id="LOCAL-00051" summary="63Day">
+      <created>1688523996084</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1688523996084</updated>
+    </task>
+    <task id="LOCAL-00052" summary="64Day">
+      <created>1688526939825</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1688526939825</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -444,7 +442,9 @@
     <MESSAGE value="60Day" />
     <MESSAGE value="61Day" />
     <MESSAGE value="62Day" />
-    <option name="LAST_COMMIT_MESSAGE" value="62Day" />
+    <MESSAGE value="63Day" />
+    <MESSAGE value="64Day" />
+    <option name="LAST_COMMIT_MESSAGE" value="64Day" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
