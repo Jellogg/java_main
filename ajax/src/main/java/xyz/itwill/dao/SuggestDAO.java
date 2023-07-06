@@ -35,7 +35,7 @@ public class SuggestDAO extends JdbcDAO {
 			
 			//전달받은 검색어가 포함된 제시어 관련 정보를 10개만 검색되도록 SQL 명령 작성
 			String sql="select rownum, temp.* from (select * from suggest where upper(word)"
-					+ " like '%'||upper(?)||'%' order by word) temp where rownum<=10";
+					+ " like '%'||upper(?)||'%' order by word) temp where rownum<=10"; //10개이하로 검색되게
 			pstmt=con.prepareStatement(sql);
 			pstmt.setString(1, keyword);
 			
