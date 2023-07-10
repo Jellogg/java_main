@@ -7,7 +7,12 @@
     <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="66Day">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-06-27__11_46__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-06-27_오전_11_46_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-03__9_51__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-03_오전_9_51_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_modify.html" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_modify.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_write.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_write.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_write_action.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_write_action.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +85,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686799568957</updated>
-    </task>
-    <task id="LOCAL-00010" summary="53Day">
-      <created>1687160419573</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1687160419573</updated>
     </task>
     <task id="LOCAL-00011" summary="53Day">
       <created>1687232517508</created>
@@ -424,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688724305524</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="66Day">
+      <created>1688954386529</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1688954386529</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
