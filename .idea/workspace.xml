@@ -9,10 +9,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-06-27_오전_11_46_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-03__9_51__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-03_오전_9_51_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_modify.html" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_modify.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_write.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_write.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_write_action.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_write_action.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_modify.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,19 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="034e3b4b-cf86-4446-bd13-3439b1b1a086" />
+        <option name="url" value="https://github.com/Jellogg/java_main.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -85,34 +97,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686799568957</updated>
-    </task>
-    <task id="LOCAL-00011" summary="53Day">
-      <created>1687232517508</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1687232517508</updated>
-    </task>
-    <task id="LOCAL-00012" summary="54Day">
-      <created>1687232531124</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1687232531124</updated>
-    </task>
-    <task id="LOCAL-00013" summary="54Day">
-      <created>1687232967170</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1687232967170</updated>
-    </task>
-    <task id="LOCAL-00014" summary="54Day">
-      <created>1687232977237</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1687232977237</updated>
     </task>
     <task id="LOCAL-00015" summary="54Day">
       <created>1687244304284</created>
@@ -429,7 +413,35 @@
       <option name="project" value="LOCAL" />
       <updated>1688954386529</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="67Day">
+      <created>1688956982562</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1688956982562</updated>
+    </task>
+    <task id="LOCAL-00061" summary="67Day">
+      <created>1688956998212</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1688956998212</updated>
+    </task>
+    <task id="LOCAL-00062" summary="67Day">
+      <created>1688957015922</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1688957015922</updated>
+    </task>
+    <task id="LOCAL-00063" summary="66Day">
+      <created>1688957093041</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1688957093041</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -449,6 +461,7 @@
     <MESSAGE value="63Day" />
     <MESSAGE value="64Day" />
     <MESSAGE value="65Day" />
+    <MESSAGE value="67Day" />
     <MESSAGE value="66Day" />
     <option name="LAST_COMMIT_MESSAGE" value="66Day" />
   </component>
