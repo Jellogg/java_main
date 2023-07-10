@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="65Day">
+    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="66Day">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-06-27__11_46__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-06-27_오전_11_46_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/src/main/webapp/comment/comment.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/src/main/webapp/comment/comment.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,20 +80,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686799568957</updated>
-    </task>
-    <task id="LOCAL-00008" summary="52Day">
-      <created>1686905574410</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1686905574410</updated>
-    </task>
-    <task id="LOCAL-00009" summary="52Day">
-      <created>1687142117037</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1687142117037</updated>
     </task>
     <task id="LOCAL-00010" summary="53Day">
       <created>1687160419573</created>
@@ -427,7 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688634347920</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="66Day">
+      <created>1688719949251</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1688719949251</updated>
+    </task>
+    <task id="LOCAL-00058" summary="66Day">
+      <created>1688724305524</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1688724305524</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -447,7 +444,8 @@
     <MESSAGE value="63Day" />
     <MESSAGE value="64Day" />
     <MESSAGE value="65Day" />
-    <option name="LAST_COMMIT_MESSAGE" value="65Day" />
+    <MESSAGE value="66Day" />
+    <option name="LAST_COMMIT_MESSAGE" value="66Day" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
