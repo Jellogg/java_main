@@ -1,9 +1,19 @@
-﻿﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+﻿<%@page import="xyz.itwill.dto.UserinfoDTO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%-- request 객체의 속성값으로 저장된 회원정보를 반환받아 입력태그의 초기값으로 설정한 후 
+사용자로부터 변경값을 입력받기 위한 JSP 문서 --%>
+<%-- => [수정] 태그를 클릭한 경우 [modify.do] 페이지 요청 - 입력값(회원정보) 전달 --%>
+<%-- => [목록] 태그를 클릭한 경우 [list.do] 페이지 요청 --%>
+<%
+	UserinfoDTO userinfo=(UserinfoDTO)request.getAttribute("userinfo");
+%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <title>MVC</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel=stylesheet href="css/user.css" type="text/css">
+<link rel=stylesheet href="<%=request.getContextPath() %>/model_two/css/user.css" type="text/css">
 <script language="JavaScript">
 function userModify() {
 	if ( f.name.value == "" ) {
@@ -11,7 +21,7 @@ function userModify() {
 		f.name.focus();
 		return false;
 	}
-	f.action = "user_modify_action.jsp";
+	f.action = "<%=request.getContextPath() %>/modify.do";
 	f.submit();
 }
 </script>
@@ -30,37 +40,43 @@ function userModify() {
 	  <br>
 	  
 	  <form name="f" method="post">
+	  <input type="hidden" name="userid" value="<%=userinfo.getUserid()%>">
 	  <table border="0" cellpadding="0" cellspacing="1" width="590" bgcolor="BBBBBB">
 		  <tr>
 			<td width=100 align=center bgcolor="E6ECDE" height="22">아이디</td>
 			<td width=490 bgcolor="ffffff" style="padding-left:10px;">
-				abc
+				<%=userinfo.getUserid() %>
 			</td>
 		  </tr>
 		  <tr>
 			<td width=100 align=center bgcolor="E6ECDE" height="22">비밀번호</td>
 			<td width=490 bgcolor="ffffff" style="padding-left:10px;">
 				<input type="password" style="width:150" name="password">
+				<span style="color: red;">** 비밀번호를 변경하지 않을 경우 입력하지 마세요.</span>
 			</td>
 		  </tr>
 		  <tr>
 			<td width=100 align=center bgcolor="E6ECDE" height="22">이름</td>
 			<td width=490 bgcolor="ffffff" style="padding-left:10px;">
-				<input type="text" style="width:240" name="name" value="홍길동">
+				<input type="text" style="width:240" name="name" value="<%=userinfo.getName() %>">
 			</td>
 		  </tr>
 		  <tr>
 			<td width=100 align=center bgcolor="E6ECDE" height="22">이메일 주소</td>
 			<td width=490 bgcolor="ffffff" style="padding-left:10px;">
-				<input type="text" style="width:240" name="email" value="abc@daum.net">
+				<% if(userinfo.getEmail()!=null) { %>
+				<input type="text" style="width:240" name="email" value="<%=userinfo.getEmail() %>">
+				<% } else { %>
+				<input type="text" style="width:240" name="email">
+				<% } %>
 			</td>
 		  </tr>		  
 		  <tr>
 			<td width=100 align=center bgcolor="E6ECDE" height="22">회원등급</td>
 			<td width=490 bgcolor="ffffff" style="padding-left:10px;">
 				<select name="status">
-					<option value="1">일반회원</option>
-					<option value="9">관리자</option>
+					<option value="1" <% if(userinfo.getStatus()==1) { %>selected<% } %>>일반회원</option>
+					<option value="9" <% if(userinfo.getStatus()==9) { %>selected<% } %>>관리자</option>
 				</select>
 			</td>
 		  </tr>	
@@ -72,7 +88,7 @@ function userModify() {
 		  <tr>
 			<td align=center>
 			<input type="button" value="수정" onClick="userModify();">
-			<input type="button" value="목록" onClick="location.href='user_list.jsp';">
+			<input type="button" value="목록" onClick="location.href='<%=request.getContextPath() %>/list.do';">
 			</td>
 		  </tr>
 	  </table>

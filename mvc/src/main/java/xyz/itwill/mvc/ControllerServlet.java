@@ -1,6 +1,12 @@
 package xyz.itwill.mvc;
 
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Properties;
+
+import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -21,6 +27,90 @@ import javax.servlet.http.HttpServletResponse;
 public class ControllerServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
+	//여러개의 엔트리(Entry)를 추가할 수 있는 Map 객체를 저장하기 위한 필드
+	// => 하나의 엔트리는 요청정보(Key - String)와 모델객체(Value - Action)를 이용하여 생성
+	// => Map 객체를 사용하면 요청정보(Key)를 이용하여 모델객체(Value)를 빠르게 제공받아 사용 가능 
+	private Map<String, Action> actionMap=new HashMap<>();
+	
+	//클라이언트가 서블릿(컨트롤러)를 최초로 요청할 경우 서블릿 클래스를 객체로 생성한 후  
+	//가장 먼저 한번만 호출되는 메소드 - 생성자 대신 초기화 작업을 실행하기 위한 메소드
+	@Override
+	public void init(ServletConfig config) throws ServletException {
+		System.out.println("ControllerServlet 클래스의 init() 메소드 호출");
+		
+		/*
+		//Map 객체에 엔트리(Entry) 추가
+		// => 모델 객체를 하나만 생성하여 제공 - 메모리 효율 증가
+		actionMap.put("/loginform.do", new LoginFormModel());
+		actionMap.put("/login.do", new LoginModel());
+		actionMap.put("/logout.do", new LogoutModel());
+		actionMap.put("/writeform.do", new WriteFormModel());
+		actionMap.put("/write.do", new WriteModel());
+		actionMap.put("/list.do", new ListModel());
+		actionMap.put("/view.do", new ViewModel());
+		actionMap.put("/modifyform.do", new ModifyFormModel());
+		actionMap.put("/modify.do", new ModifyModel());
+		actionMap.put("/remove.do", new RemoveModel());
+		actionMap.put("/error.do", new ErrorModel());
+		*/
+		
+		//Properties 파일에 요청정보와 모델 클래스를 저장하고 Properties 파일을 읽어 Map 객체의
+		//엔트리로 추가 - 유지보수의 효율성 증가
+		// => 컨트롤러를 변경하지 않고 Properties 파일만 변경하여 요청정보에 대한 모델 객체 관리
+		//Properties 파일(XXX.properties) : 프로그램 실행에 필요한 값을 제공하기 위한 텍스트 파일
+		
+		//Properties 파일의 내용을 저장하기 위한 Properties 객체 생성
+		Properties properties=new Properties();
+		
+		//ServletConfig.getInitParameter(String name) : [web.xml] 파일에서 init-param 엘리먼트로
+		//제공된 값을 읽어와 반환하는 메소드
+		String configFile=config.getInitParameter("configFile");
+		
+		//Properties 파일의 파일 시스템 경로를 반환받아 저장
+		//String configFilePath=config.getServletContext().getRealPath("/WEB-INF/model.properties");
+		String configFilePath=config.getServletContext().getRealPath(configFile);
+		//System.out.println("configFilePath = "+configFilePath);
+		
+		try {
+			//Properties 파일의 내용을 읽기 위한 파일 입력스트림 생성
+			FileInputStream in=new FileInputStream(configFilePath);
+			
+			//Properties 파일의 내용을 읽어 Properties 객체의 엔트리로 저장
+			properties.load(in);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		//Properties 객체에 저장된 모든 엔트리의 이름(Key)이 저장된 Set 객체를 반환받아 
+		//for 구문을 이용하여 반복 처리
+		for(Object key : properties.keySet()) {
+			//Properties 객체에 저장된 엔트리의 이름(Key)을 반환받아 저장 - 요청정보
+			String command=(String)key;
+			
+			//Properties 객체에 저장된 엔트리의 값(Value)을 반환받아 저장 - 모델 클래스
+			String actionClass=(String)properties.get(key);
+			
+			try {
+				//모델 클래스로 모델 객체를 생성하여 저장 - 리플렉션 기능 사용
+				//리플렉션(Reflection) : 프로그램의 명령 실행시 Class 객체(Clazz)로 객체를
+				//생성하여 객체의 필드 또는 메소드에 접근하도록 제공하는 기능
+				//Class.forName(String className) : 매개변수로 전달받은 문자열로 표현된 클래스를
+				//읽어 메모리에 저장하고 Class 객체(Clazz)를 반환하는 메소드
+				// => ClassNotFoundException 발생
+				//Class.getDeclaredConstructor() : Class 객체의 생성자가 저장된 Constructor 
+				//객체를 반환하는 메소드
+				//Constructor.newInstance() : Constructor 객체에 저장된 생성자를 이용하여 
+				//Object 타입의 객체를 생성하여 반환하는 메소드
+				Action actionObject=(Action)Class.forName(actionClass).getDeclaredConstructor().newInstance();
+				
+				//Map 객체에 엔트리(Key : 요청정보, Value : 모델 객체) 추가
+				actionMap.put(command, actionObject);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+	
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//System.out.println("ControllerServlet 클래스의 service() 메소드 호출");
 		
@@ -54,6 +144,7 @@ public class ControllerServlet extends HttpServlet {
 		// => [/remove.do]     >> RemoveModel 클래스
 		// => [/error.do]      >> ErrorModel 클래스
 		
+		/*
 		//모델 역활의 클래스가 상속받기 위한 인터페이스로 참조변수 생성
 		// => 인터페이스로 생성된 참조변수에는 인스페이스를 상속받은 모든 자식클래스(모델)의 객체 저장 가능
 		Action action=null;
@@ -72,10 +163,26 @@ public class ControllerServlet extends HttpServlet {
 			action=new WriteModel();
 		} else if(command.equals("/list.do")) {
 			action=new ListModel();
+		} else if(command.equals("/view.do")) {
+			action=new ViewModel();
+		} else if(command.equals("/modifyform.do")) {
+			action=new ModifyFormModel();
+		} else if(command.equals("/modify.do")) {
+			action=new ModifyModel();
+		} else if(command.equals("/remove.do")) {
+			action=new RemoveModel();
 		} else if(command.equals("/error.do")) {
 			action=new ErrorModel();
 		} else {//클라이언트 요청에 대한 모델 역활의 클래스가 없는 경우
 			action=new ErrorModel();
+		}
+		*/
+		
+		//Map 객체에 저장된 엔트리에서 요청정보(Key)를 이용하여 모델객체(Value)를 반환받아 저장
+		// => 가독성 증가
+		Action action=actionMap.get(command);
+		if(action==null) {
+			action=actionMap.get("/error.do");
 		}
 		
 		//인터페이스 참조변수로 추상메소드를 호출하면 참조변수에 저장된 모델 객체의 요청 
