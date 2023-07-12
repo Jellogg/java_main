@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="66Day">
+    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="68Day">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-06-27__11_46__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-06-27_오전_11_46_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-03__9_51__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-03_오전_9_51_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/src/main/java/xyz/itwill/exception/ExistsUserinfoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/java/xyz/itwill/exception/ExistsUserinfoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/src/main/java/xyz/itwill/mvc/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/java/xyz/itwill/mvc/Action.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/src/main/java/xyz/itwill/mvc/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/java/xyz/itwill/mvc/ControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/src/main/java/xyz/itwill/mvc/LoginModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/java/xyz/itwill/mvc/LoginModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/src/main/java/xyz/itwill/mvc/LogoutModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/java/xyz/itwill/mvc/LogoutModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/src/main/java/xyz/itwill/mvc/WriteFormModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/java/xyz/itwill/mvc/WriteFormModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/src/main/java/xyz/itwill/mvc/WriteModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/java/xyz/itwill/mvc/WriteModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/src/main/java/xyz/itwill/service/UserinfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/java/xyz/itwill/service/UserinfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_modify.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/webapp/model_one/user_view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/src/main/webapp/model_two/user_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/webapp/model_two/user_login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,20 +97,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686799568957</updated>
-    </task>
-    <task id="LOCAL-00015" summary="54Day">
-      <created>1687244304284</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1687244304284</updated>
-    </task>
-    <task id="LOCAL-00016" summary="54Day">
-      <created>1687244313121</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1687244313121</updated>
     </task>
     <task id="LOCAL-00017" summary="54Day">
       <created>1687253153575</created>
@@ -449,7 +427,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688957093041</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="67Day">
+      <created>1689042846049</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1689042846049</updated>
+    </task>
+    <task id="LOCAL-00065" summary="68Day">
+      <created>1689127953663</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1689127953663</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -469,9 +461,10 @@
     <MESSAGE value="63Day" />
     <MESSAGE value="64Day" />
     <MESSAGE value="65Day" />
-    <MESSAGE value="67Day" />
     <MESSAGE value="66Day" />
-    <option name="LAST_COMMIT_MESSAGE" value="66Day" />
+    <MESSAGE value="67Day" />
+    <MESSAGE value="68Day" />
+    <option name="LAST_COMMIT_MESSAGE" value="68Day" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

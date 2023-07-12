@@ -1,4 +1,4 @@
-﻿<%@page import="xyz.itwill.dto.UserinfoDTO"%>
+﻿﻿<%@page import="xyz.itwill.dto.UserinfoDTO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%-- 비로그인 상태의 사용자인 경우 - 사용자로부터 로그인정보를 입력받기 위한 JSP 문서 --%>
@@ -10,18 +10,14 @@
 <%
 	UserinfoDTO loginUserinfo=(UserinfoDTO)session.getAttribute("loginUserinfo");
 
-	String message=(String)session.getAttribute("message");
+	String message=(String)request.getAttribute("message");
 	if(message==null) {
 		message="";
-	} else {
-		session.removeAttribute("message");
 	}
 	
-	String userid=(String)session.getAttribute("userid");
+	String userid=(String)request.getAttribute("userid");
 	if(userid==null) {
 		userid="";
-	} else {
-		session.removeAttribute("userid");
 	}
 %>    
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -31,7 +27,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <%-- 요청 서블릿(컨트롤러)의 URL 주소 경로와 응답하는 JSP 문서의 경로가 서로 다르므로
 웹자원의 경로는 절대경로로 표현하는 것을 권장 --%>
-<link rel=stylesheet href="<%=request.getContextPath() %>/model_two/css/user.css" type="text/css">
+<%-- <link rel=stylesheet href="<%=request.getContextPath() %>/model_two/css/user.css" type="text/css"> --%>
+<link rel=stylesheet href="${pageContext.request.contextPath}/model_two/css/user.css" type="text/css">
 <script language="JavaScript">
 function userLogin() {
 	if ( f.userid.value == "" ) {
