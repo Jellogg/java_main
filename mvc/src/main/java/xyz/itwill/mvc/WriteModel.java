@@ -25,7 +25,7 @@ public class WriteModel implements Action {
 				throw new Exception();
 			}
 			
-			request.setCharacterEncoding("utf-8");
+			//request.setCharacterEncoding("utf-8");
 			
 			String userid=request.getParameter("userid");
 			String password=request.getParameter("password");
@@ -47,7 +47,7 @@ public class WriteModel implements Action {
 			
 			actionForward.setForward(false);
 			actionForward.setPath(request.getContextPath()+"/loginform.do");
-		}catch (ExistsUserinfoException e) {
+		} catch (ExistsUserinfoException e) {
 			//아이디가 중복된 경우 발생되는 예외에 대한 예외처리 명령 작성
 			request.setAttribute("message", e.getMessage());
 			request.setAttribute("userinfo", userinfo);
