@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xyz.itwill.mapper.MyReplyMapper">
+	<insert id="insertReply" parameterType="MyReply">
+		<selectKey resultType="int" keyProperty="replyNo" order="BEFORE">
+			select myreply_seq.nextval from dual
+		</selectKey>
+		insert into myreply values(#{replyNo}, #{replyId}, #{replyContent}, sysdate, #{replyCommentNo})
+	</insert>
+	
+	<select id="selectReplyList" resultType="MyReply">
+		select reply_no, reply_id, reply_content, reply_date, reply_comment_no
+			from myreply order by reply_no desc
+	</select>
+	
+	<!-- MYREPLY 테이블에 저장된 댓글 중 가장 최근에 작성된 5개 댓글만 검색하는 SELECT 명령 등록 -->
+	<!-- 문제점 : XML 기반의 매퍼 파일에서는 SQL 명령이 등록된 엘리먼트에서 비교 연산자 중
+	> 또는 < 연산자를 사용할 경우 엘리먼트를 표현하는 기호로 인식되어 에러 발생 -->
+	<!-- 해결법-1 : > 또는 < 비교 연산자를 엔티티 레퍼런스(회피문자)로 표현하여 SQL 명령 작성 -->
+	<!-- 
+	<select id="selectCountReplyList" resultType="MyReply">
+		select rownum, reply.* from (select reply_no, reply_id, reply_content, reply_date
+			, reply_comment_no from myreply order by reply_no desc) reply where rownum &lt;= 5
+	</select>
+	-->
+	 
+	<!-- 해결법-2 : CDATA 세션을 사용하여 SQL 명령 작성 -->
+	<select id="selectCountReplyList" resultType="MyReply">
+		<![CDATA[
+		select rownum, reply.* from (select reply_no, reply_id, reply_content, reply_date
+			, reply_comment_no from myreply order by reply_no desc) reply where rownum <= 5
+		]]>	
+	</select>
+	
+	<resultMap type="MyReplyUser" id="myReplyUserResultMap1">
+		<association property="reply" javaType="MyReply">
+			<id column="reply_no" property="replyNo"/>
+			<result column="reply_id" property="replyId"/>
+			<result column="reply_content" property="replyContent"/>
+			<result column="reply_date" property="replyDate"/>
+			<result column="reply_comment_no" property="replyCommentNo"/>
+		</association>
+		<association property="user" javaType="MyUser">
+			<id column="user_id" property="userId"/>
+			<result column="user_name" property="userName"/>
+		</association>
+	</resultMap>
+	
+	<select id="selectReplyUserList1" resultMap="myReplyUserResultMap1">
+		select reply_no, reply_id, reply_content, reply_date, reply_comment_no, user_id
+			, user_name from myreply join myuser on reply_id=user_id order by reply_no desc
+	</select>
+	
+	<!-- 검색행의 컬럼값이 필드값으로 저장된 객체를 생성하여 제공하는 resultMap 엘리먼트 -->
+	<resultMap type="MyReply" id="myReplyResultMap">
+		<id column="reply_no" property="replyNo"/>
+		<result column="reply_id" property="replyId"/>
+		<result column="reply_content" property="replyContent"/>
+		<result column="reply_date" property="replyDate"/>
+		<result column="reply_comment_no" property="replyCommentNo"/>
+	</resultMap>	
+	
+	<resultMap type="MyReplyUser" id="myReplyUserResultMap2">
+		<!-- resultMap 속성 : resultMap 엘리먼트의 식별자를 속성값으로 설정 -->
+		<!-- => 다른 resultMap 엘리먼트의 매핑정보를 이용하여 검색행의 컬럼값이 저장된 객체를
+		제공받아 필드에 저장 - resultMap 엘리먼트의 매핑 정보 재사용 -->
+		<association property="reply" resultMap="myReplyResultMap"/>
+		
+		<!-- select 속성 : select 엘리먼트의 식별자를 속성값을 설정 -->
+		<!-- => select 엘리먼트로 검색행의 컬럼값이 저장된 객체를 제공받아 필드에 저장  -->
+		<!-- column 속성 : SELECT 명령에 전달될 값이 저장된 검색행의 컬럼명을 속성값으로 설정 -->
+		<!-- => 검색행의 컬럼값을 select 속성값으로 설정된 select 엘리먼트의 parameterType
+		속성값으로 전달하여 SELECT 명령에서 사용 가능 -->
+		<association property="user" select="selectMyUser" column="reply_id"/>
+	</resultMap>
+	
+	<!-- DAO 클래스의 메소드에서 사용하지 않고 association 엘리먼트에서만 사용하기 위한 SELECT 명령 -->
+	<!-- => Interface 기반의 매퍼 파일에서 추상메소드로 미선언 -->
+	<!-- => parameterType 속성값으로 전달받은 값을 사용하여 단일행이 검색되도록 SELECT 명령 작성 -->
+	<select id="selectMyUser" resultType="MyUser" parameterType="string">
+		select user_id, user_name from myuser where user_id=#{userId}
+	</select>
+	
+	<!-- 테이블 조인 명령을 사용하지 않고 resultMap 엘리먼트의 매핑정보를 이용하여 2개 
+	이상의 테이블에 대한 검색결과를 객체로 제공받아 사용 가능 -->
+	<select id="selectReplyUserList2" resultMap="myReplyUserResultMap2">
+		select reply_no, reply_id, reply_content, reply_date, reply_comment_no from myreply order by reply_no desc
+	</select>
+</mapper>

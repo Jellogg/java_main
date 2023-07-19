@@ -4,7 +4,7 @@
     pageEncoding="UTF-8"%>
 <%
 	MyComment1 comment1=new MyComment1();
-	comment1.setCommentId("abc");
+	comment1.setCommentId("abc"); 
 	comment1.setCommentContent("첫번째 게시글입니다.");
 	MyCommentDAO.getDAO().insertComment1(comment1);
 	
