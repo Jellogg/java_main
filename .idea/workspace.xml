@@ -4,13 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="72Day">
+    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="73Day">
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/dao/AbstractSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/dao/MyCommentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/dao/MyMemberDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/dao/MyUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/dto/MyComment1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/dto/MyComment2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/dto/MyUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/mapper/MyCommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/mapper/MyCommentMappper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/mapper/MyMemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/mapper/MyMemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/mapper/MyUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/mapper/MyUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/webapp/WEB-INF/lib/slf4j-api-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/webapp/comment/commentInsert1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/webapp/comment/commentInsert2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/webapp/comment/commentListSelect1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/webapp/comment/commentListSelect2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/webapp/user/userInsert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/webapp/user/userListSelect.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-06-27__11_46__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-06-27_오전_11_46_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-03__9_51__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-03_오전_9_51_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/dto/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/dto/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/webapp/WEB-INF/lib/slf4j-api-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/webapp/member/memberDisplay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/webapp/member/memberDisplay.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,13 +119,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686799568957</updated>
-    </task>
-    <task id="LOCAL-00024" summary="56Day">
-      <created>1687499712949</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1687499712949</updated>
     </task>
     <task id="LOCAL-00025" summary="56Day">
       <created>1687510876229</created>
@@ -440,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689650774311</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="72Day">
+      <created>1689652428424</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1689652428424</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -467,7 +490,8 @@
     <MESSAGE value="70Day" />
     <MESSAGE value="71Day" />
     <MESSAGE value="72Day" />
-    <option name="LAST_COMMIT_MESSAGE" value="72Day" />
+    <MESSAGE value="73Day" />
+    <option name="LAST_COMMIT_MESSAGE" value="73Day" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
