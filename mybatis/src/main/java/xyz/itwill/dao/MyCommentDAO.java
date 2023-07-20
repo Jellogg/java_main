@@ -7,6 +7,8 @@ import org.apache.ibatis.session.SqlSession;
 import xyz.itwill.dto.MyComment1;
 import xyz.itwill.dto.MyComment2;
 import xyz.itwill.dto.MyComment3;
+import xyz.itwill.dto.MyCommentReply;
+import xyz.itwill.dto.MyCommentReplyUser;
 import xyz.itwill.dto.MyCommentUser1;
 import xyz.itwill.dto.MyCommentUser2;
 import xyz.itwill.dto.MyReply;
@@ -108,4 +110,21 @@ public class MyCommentDAO extends AbstractSession {
 		}
 	}
 	
+	public MyCommentReply selectCommentReply(int commentNo) {
+		SqlSession sqlSession=getSqlSessionFactory().openSession(true);
+		try {
+			return sqlSession.getMapper(MyCommentMapper.class).selectCommentReply(commentNo);
+		} finally {
+			sqlSession.close();
+		}
+	}
+	
+	public MyCommentReplyUser selectCommentReplyUser(int commentNo) {
+		SqlSession sqlSession=getSqlSessionFactory().openSession(true);
+		try {
+			return sqlSession.getMapper(MyCommentMapper.class).selectCommentReplyUser(commentNo);
+		} finally {
+			sqlSession.close();
+		}
+	}
 }

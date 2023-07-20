@@ -1,7 +1,6 @@
-<%@page import="xyz.itwill.dto.MyReply"%>
-<%@page import="java.util.List"%>
+<%@page import="xyz.itwill.dto.MyReplyUser"%>
 <%@page import="xyz.itwill.dao.MyCommentDAO"%>
-<%@page import="xyz.itwill.dto.MyComment1"%>
+<%@page import="xyz.itwill.dto.MyCommentReplyUser"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
@@ -14,11 +13,9 @@
 	//전달값(게시글번호)을 반환받아 저장
 	int commentNo=Integer.parseInt(request.getParameter("commentNo"));
 	
-	//게시글번호를 전달받아 MYCOMMENT 테이블에 저장된 게시글을 검색하여 DTO 객체로 반환하는 DAO 클래스의 메소드 호출
-	MyComment1 comment=MyCommentDAO.getDAO().selectComment(commentNo);
-	
-	//게시글번호를 전달받아 MYREPLY 테이블에 저장된 댓글목록을 검색하여 List 객체로 반환하는 DAO 클래스의 메소드 호출
-	List<MyReply> replyList=MyCommentDAO.getDAO().selectCommentNoReplyList(commentNo);
+	//게시글번호를 전달받아 MYCOMMENT 테이블에 저장된 게시글과 MYREPLY 테이블에 저장된 
+	//댓글목록을 검색하여 DTO 객체로 반환하는 DAO 클래스의 메소드 호출
+	MyCommentReplyUser commentReplyUser=MyCommentDAO.getDAO().selectCommentReplyUser(commentNo);
 %>    
 <!DOCTYPE html>
 <html>
@@ -51,19 +48,19 @@ td {
 	<table>
 		<tr>
 			<td width="200">게시글번호</td>
-			<td width="300"><%=comment.getCommentNo() %></td>
+			<td width="300"><%=commentReplyUser.getCommentNo() %></td>
 		</tr>
 		<tr>
 			<td width="200">게시글작성자</td>
-			<td width="300"><%=comment.getCommentId() %></td>
+			<td width="300"><%=commentReplyUser.getUser().getUserName()%>[<%=commentReplyUser.getCommentId() %>]</td>
 		</tr>
 		<tr>
 			<td width="200">게시글내용</td>
-			<td width="300"><%=comment.getCommentContent() %></td>
+			<td width="300"><%=commentReplyUser.getCommentContent() %></td>
 		</tr>
 		<tr>
 			<td width="200">게시글작성일</td>
-			<td width="300"><%=comment.getCommentDate() %></td>
+			<td width="300"><%=commentReplyUser.getCommentDate() %></td>
 		</tr>
 	</table>
 	<br>
@@ -77,18 +74,18 @@ td {
 			<td class="date">댓글작성일</td>
 			<td class="comment">게시글번호</td>
 		</tr>
-		<% if(replyList.isEmpty()) { %>
+		<% if(commentReplyUser.getReplyUserList().isEmpty()) { %>
 			<tr>
 				<td colspan="5">댓글이 존재하지 않습니다.</td>
 			</tr>
 		<% } else { %>
-			<% for(MyReply reply : replyList) { %>
+			<% for(MyReplyUser replyUser : commentReplyUser.getReplyUserList()) { %>
 			<tr>
-				<td><%=reply.getReplyNo() %></td>
-				<td><%=reply.getReplyId() %></td>
-				<td><%=reply.getReplyContent() %></td>
-				<td><%=reply.getReplyDate() %></td>
-				<td><%=reply.getReplyCommentNo() %></td>
+				<td><%=replyUser.getReply().getReplyNo() %></td>
+				<td><%=replyUser.getUser().getUserName() %>[<%=replyUser.getReply().getReplyId() %>]</td>
+				<td><%=replyUser.getReply().getReplyContent() %></td>
+				<td><%=replyUser.getReply().getReplyDate() %></td>
+				<td><%=replyUser.getReply().getReplyCommentNo() %></td>
 			</tr>
 			<% } %>
 		<% } %>
