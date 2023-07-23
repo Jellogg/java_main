@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="xyz.itwill.mapper.MyCommentMapper">
+	<!-- cache : SELECT 명령의 검색결과(Java 객체)를 임시 메모리(Cache Memoey)에 저장하여 
+	빠른 검색 결과를 제공하기 위한 엘리먼트 - 가독성 증가 -->
+	<!-- => INSERT, UPDATE, DELETE 명령이 실행되면 임시 메모리에 저장된 검색결과는 자동으로 초기화 -->
+	<!-- => 검색결과를 저장하는 객체는 반드시 객체 직렬화 클래스로 작성 -->
+	<!-- <cache/> -->
+
 	<insert id="insertComment1" parameterType="MyComment1">
 		insert into mycomment values(mycomment_seq.nextval, #{commentId}, #{commentContent}, sysdate)
 	</insert>
@@ -172,7 +178,7 @@
 			<result column="comment_date" property="commentDate"/>
 		</association>
 		
-		<!-- collection : 1:N 관계의 테이블 조인에서 0개의 검색행을 List 객체로 생성하여 resultMap 
+		<!-- collection : 1:N 관계의 테이블 조인에서 0개 이상의 검색행을 List 객체로 생성하여 resultMap 
 		엘리먼트의 type 속성값으로 설정된 클래스의 객체 필드에 저장되도록 매핑 처리하는 엘리먼트 -->
 		<!-- => id 엘리먼트 또는 result 엘리먼트를 하위 엘리먼트로 사용하여 collection 엘리먼트로
 		생성될 List 객체의 요소(객체) 필드에 검색행의 컬럼값이 저장되도록 매핑 처리 -->
@@ -226,8 +232,9 @@
 	</resultMap>	
 	-->
 	 
-	<!-- 게시글번호를 전달받아 MYCOMMENT 테이블에 저장된 게시글정보(1개)와 MYREPLY 테이블에
-	저장된 댓글정보(0개 이상)를 검색하여 MyCommentReplyUser 객체로 제공하는 엘리먼트 -->
+	<!-- 게시글번호를 전달받아 MYCOMMENT 테이블(MYUSER 테이블)에 저장된 게시글정보(1개)와 
+	MYREPLY 테이블(MYUSER 테이블)에	저장된 댓글정보(0개 이상)를 검색하여 MyCommentReplyUser
+	객체로 제공하는 엘리먼트 -->
 	<!-- 
 	<select id="selectCommentReplyUser" parameterType="int" resultMap="myCommentReplyUserResultMap">
 		select comment_no, comment_id, comment_content, comment_date, user_id, user_name
@@ -248,12 +255,12 @@
 		<collection property="replyUserList" select="selectReplyUser" column="comment_no"/>
 	</resultMap>
 	
-	<resultMap type="MyReplyUser" id="myReplyUserResulyMapper">
+	<resultMap type="MyReplyUser" id="myReplyUserResultMap">
 		<association property="reply" javaType="MyReply" autoMapping="true"/>
 		<association property="user" javaType="MyUser" autoMapping="true"/>
 	</resultMap>
 	
-	<select id="selectReplyUser" parameterType="int" resultMap="myReplyUserResulyMapper">
+	<select id="selectReplyUser" parameterType="int" resultMap="myReplyUserResultMap">
 		select reply_no, reply_id, reply_content, reply_date, reply_comment_no, user_id
 			, user_name from myreply join myuser on reply_id=user_id where 
 			reply_comment_no=#{replyCommentNo} order by reply_no desc
@@ -261,8 +268,6 @@
 	
 	<select id="selectCommentReplyUser" parameterType="int" resultMap="myCommentReplyUserResultMap">
 		select comment_no, comment_id, comment_content, comment_date, user_id, user_name
-			, reply_no, reply_id, reply_content, reply_date, reply_comment_no from
-			mycomment join myuser on comment_id=user_id left join myreply on 
-			comment_no=reply_comment_no where comment_no=#{commentNo} order by reply_no desc
-	</select> 
+			from mycomment join myuser on comment_id=user_id where comment_no=#{commentNo}
+	</select>
 </mapper>
