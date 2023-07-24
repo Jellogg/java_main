@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="73Day">
       <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-06-27__11_46__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-06-27_오전_11_46_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-03__9_51__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-03_오전_9_51_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Servers/.project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Servers/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Servers/.settings/org.eclipse.wst.server.core.prefs" beforeDir="false" />
@@ -18,11 +21,11 @@
       <change beforePath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/server.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/tomcat-users.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsp/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jsp/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/dto/MyComment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/dto/MyComment1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/dto/MyCommentReply.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/dto/MyCommentReply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/mapper/MyCommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/xyz/itwill/mapper/MyCommentMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
