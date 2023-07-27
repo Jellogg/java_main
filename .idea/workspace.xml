@@ -4,23 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="78Day">
+    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="79Day">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.wst.validation/dep.index" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.wst.validation/dep.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/java/xyz/itwill03/spring/MessagePrintApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/java/xyz/itwill03/spring/MessagePrintApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/java/xyz/itwill04/bean/ComponentAnnotationBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/java/xyz/itwill04/bean/ComponentAnnotationBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.springsource.ide.eclipse.dashboard.ui/feeds/dashboard.feeds.blogs/-549550714.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.springsource.ide.eclipse.dashboard.ui/feeds/dashboard.feeds.blogs/-549550714.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/.springBeans" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/.springBeans" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/java/xyz/itwill05/di/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/java/xyz/itwill05/di/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/java/xyz/itwill05/di/StudentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/java/xyz/itwill05/di/StudentApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill04/bean/BeanAttributeApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill04/bean/BeanAttributeApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill04/bean/ComponentAnnotationBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill04/bean/ComponentAnnotationBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/di/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/di/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/resources/05-1_di.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/resources/05-1_di.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/05-1_di.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/05-1_di.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/di/StudentApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/di/StudentApp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,20 +106,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686799568957</updated>
-    </task>
-    <task id="LOCAL-00038" summary="60Day">
-      <created>1688088202334</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1688088202334</updated>
-    </task>
-    <task id="LOCAL-00039" summary="60Day">
-      <created>1688091837817</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1688091837817</updated>
     </task>
     <task id="LOCAL-00040" summary="60Day">
       <created>1688104046648</created>
@@ -453,7 +436,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690418871377</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="79Day">
+      <created>1690423310016</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1690423310016</updated>
+    </task>
+    <task id="LOCAL-00088" summary="79Day">
+      <created>1690426363454</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1690426363454</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -491,9 +488,9 @@
     <MESSAGE value="77Day" />
     <MESSAGE value="76Day" />
     <MESSAGE value="what" />
-    <MESSAGE value="79Day" />
     <MESSAGE value="78Day" />
-    <option name="LAST_COMMIT_MESSAGE" value="78Day" />
+    <MESSAGE value="79Day" />
+    <option name="LAST_COMMIT_MESSAGE" value="79Day" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

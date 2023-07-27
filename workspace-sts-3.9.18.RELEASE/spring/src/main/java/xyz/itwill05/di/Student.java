@@ -1,7 +1,7 @@
 package xyz.itwill05.di;
 
 //학생정보를 저장하기 위한 클래스 - VO 클래스, DTO 클래스, POJO(Plain Old Java Object) 클래스 
-// => 학생정보를 표현하기 위한 값을 필드에 저장
+// > 학생정보를 표현하기 위한 값을 필드에 저장
 public class Student {
 	private int num;
 	private String name;
