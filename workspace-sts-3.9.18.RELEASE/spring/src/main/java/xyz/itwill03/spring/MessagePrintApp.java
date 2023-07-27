@@ -23,7 +23,7 @@ public class MessagePrintApp {
 		print.messagePrint();
 
 		//ApplicationContext 객체 제거 - Spring 컨테이너 소멸 
-		// => Spring 컨테이너가 관리하는 모든 Spring Bean(객체) 소멸 
+		// > Spring 컨테이너가 관리하는 모든 Spring Bean(객체) 소멸 
 		((ClassPathXmlApplicationContext)context).close();
 	}
 }
