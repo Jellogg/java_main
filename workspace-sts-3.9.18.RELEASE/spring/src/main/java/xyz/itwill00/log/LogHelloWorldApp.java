@@ -13,7 +13,7 @@ public class LogHelloWorldApp {
 	
 	public static void main(String[] args) {
 		//Logger.info(String message) : Logger 객체로 INFO 레벨의 로그 이벤트를 발생하는 메소드
-		// => 매개변수에는 로그 구현체로 기록될 로그 메세지 전달
+		// > 매개변수에는 로그 구현체로 기록될 로그 메세지 전달
 		logger.info("시작");
 		LogHelloWorld hw=new LogHelloWorld();
 		String message=hw.hello("홍길동");
