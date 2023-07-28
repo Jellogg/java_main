@@ -1,35 +1,4 @@
-INDEX VERSION 1.131+C:\Users\Hyugyo\IdeaProjects\java_main\workspace-sts-3.9.18.RELEASE\.metadata\.plugins\org.eclipse.jdt.core
-1812844697.index
-1911030015.index
-894698554.index
-1300882173.index
-3766208380.index
+INDEX VERSION 1.131+C:\Users\user\IdeaProjects\java_main\workspace-sts-3.9.18.RELEASE\.metadata\.plugins\org.eclipse.jdt.core
+623334914.index
 1865797976.index
-934560854.index
-1979487486.index
-156398000.index
-3245338589.index
-3632026522.index
-1158677394.index
-3888268170.index
-185446731.index
-2515127521.index
-3159385023.index
-3297212155.index
-2424723678.index
-2562237014.index
-968938555.index
-345225437.index
-4071525313.index
-2155543677.index
-2137119887.index
-1536138338.index
-3124511972.index
-1649657699.index
-3039430898.index
 1494435058.index
-1473701768.index
-1760072254.index
-908207201.index
-1306927828.index
-2749753719.index

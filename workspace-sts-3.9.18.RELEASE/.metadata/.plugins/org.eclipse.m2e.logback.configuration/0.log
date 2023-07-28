@@ -1051,3 +1051,58 @@ Caused by: java.lang.Exception: Project 'spring' is not open.
 2023-07-28 01:16:02,076 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
 2023-07-28 01:16:02,079 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-07-28 01:16:02,080 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-07-28 10:08:50,016 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-28 10:09:12,874 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: xyz.itwill:controller:1.0.0-BUILD-SNAPSHOT @ C:\Users\user\IdeaProjects\java_main\workspace-sts-3.9.18.RELEASE\spring\pom.xml.
+2023-07-28 10:09:12,912 [Worker-5: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.slf4j:slf4j-log4j12:jar:2.0.7 has been relocated to org.slf4j:slf4j-reload4j:jar:2.0.7
+2023-07-28 10:09:16,452 [Worker-0: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: xyz.itwill:controller:1.0.0-BUILD-SNAPSHOT @ C:\Users\user\IdeaProjects\java_main\workspace-sts-3.9.18.RELEASE\spring\pom.xml.
+2023-07-28 10:09:16,483 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.slf4j:slf4j-log4j12:jar:2.0.7 has been relocated to org.slf4j:slf4j-reload4j:jar:2.0.7
+2023-07-28 10:09:16,730 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.slf4j:slf4j-log4j12:jar:2.0.7 has been relocated to org.slf4j:slf4j-reload4j:jar:2.0.7
+2023-07-28 10:09:17,067 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:09:17,071 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2023-07-28 10:09:17,076 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:09:17,076 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-28 10:09:18,098 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.slf4j:slf4j-log4j12:jar:2.0.7 has been relocated to org.slf4j:slf4j-reload4j:jar:2.0.7
+2023-07-28 10:09:18,105 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:09:18,106 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2023-07-28 10:09:18,117 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:09:18,118 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-28 10:09:18,330 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:09:18,331 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2023-07-28 10:09:18,337 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:09:18,338 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-28 10:09:18,527 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:09:18,528 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2023-07-28 10:09:18,534 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:09:18,535 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-28 10:09:18,710 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:09:18,711 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2023-07-28 10:09:18,716 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:09:18,717 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-28 10:09:19,442 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:09:19,442 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2023-07-28 10:09:19,443 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:09:19,444 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-28 10:09:20,637 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: xyz.itwill:controller:1.0.0-BUILD-SNAPSHOT @ C:\Users\user\IdeaProjects\java_main\workspace-sts-3.9.18.RELEASE\spring\pom.xml.
+2023-07-28 10:09:20,662 [Worker-8: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.slf4j:slf4j-log4j12:jar:2.0.7 has been relocated to org.slf4j:slf4j-reload4j:jar:2.0.7
+2023-07-28 10:09:20,861 [Worker-8: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.slf4j:slf4j-log4j12:jar:2.0.7 has been relocated to org.slf4j:slf4j-reload4j:jar:2.0.7
+2023-07-28 10:09:21,911 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.slf4j:slf4j-log4j12:jar:2.0.7 has been relocated to org.slf4j:slf4j-reload4j:jar:2.0.7
+2023-07-28 10:09:21,978 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:09:21,980 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-07-28 10:09:21,982 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:09:21,983 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-07-28 10:28:26,488 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:28:26,501 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2023-07-28 10:28:26,516 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:28:26,517 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-28 10:28:32,652 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:28:32,654 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2023-07-28 10:28:32,675 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 10:28:32,676 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-28 11:05:47,210 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 11:05:47,211 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2023-07-28 11:05:47,212 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 11:05:47,213 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-28 11:06:12,116 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 11:06:12,118 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2023-07-28 11:06:12,119 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-28 11:06:12,120 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
