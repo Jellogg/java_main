@@ -1,0 +1,14 @@
+Index: workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Cached timestamps\r\n#Tue Jul 25 20:00:34 KST 2023\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties b/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+--- a/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties	
++++ b/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties	
+@@ -1,2 +1,2 @@
+ #Cached timestamps
+-#Tue Jul 25 20:00:34 KST 2023
++#Fri Jul 28 01:20:16 KST 2023
