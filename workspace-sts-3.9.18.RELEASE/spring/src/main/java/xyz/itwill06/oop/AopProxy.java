@@ -28,13 +28,21 @@ public class AopProxy implements Aop {
 	@Override
 	public void display2() {
 		logger.beforeLog();
+<<<<<<< HEAD
 		target.display2();
+=======
+		target.display1();
+>>>>>>> origin/main
 	}
 
 	@Override
 	public void display3() {
 		logger.beforeLog();
+<<<<<<< HEAD
 		target.display3();
+=======
+		target.display1();
+>>>>>>> origin/main
 	}
 
 }
