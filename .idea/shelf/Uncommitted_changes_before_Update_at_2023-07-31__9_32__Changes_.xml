@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Update_at_2023-07-31_오전_9_32_[Changes]" date="1690763570424" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-31_오전_9_32_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2023-07-31 오전 9:32 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" />
+    <option name="AFTER_PATH" value="workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-31_오전_9_32_[Changes]/properties.index" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+    <option name="AFTER_PATH" value="workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-31_오전_9_32_[Changes]/org.eclipse.core.resources" />
+  </binary>
+</changelist>

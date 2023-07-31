@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Update_at_2023-07-31_오전_9_31_[Changes]" date="1690763496558" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-31_오전_9_31_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2023-07-31 오전 9:31 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+    <option name="AFTER_PATH" value="workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-31_오전_9_31_[Changes]/org.eclipse.core.resources" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.springframework.ide.eclipse.beans.core.metadata/metadata/.state" />
+    <option name="AFTER_PATH" value="workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.springframework.ide.eclipse.beans.core.metadata/metadata/.state" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-31_오전_9_31_[Changes]/.state" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" />
+    <option name="AFTER_PATH" value="workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-31_오전_9_31_[Changes]/1865797976.index" />
+  </binary>
+</changelist>
