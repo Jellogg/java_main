@@ -10,6 +10,7 @@ import xyz.itwill.mapper.MyHewonInterfaceMapper;
 public class MyHewonInterfaceDAO extends AbstractSession {
 	private static MyHewonInterfaceDAO _dao;
 
+	
 	private MyHewonInterfaceDAO() {
 		// TODO Auto-generated constructor stub
 	}

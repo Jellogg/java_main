@@ -10512,3 +10512,9 @@ java.io.UTFDataFormatException
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-31 11:22:53.755
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-31 16:36:52.005
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-31 16:36:52.010
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
