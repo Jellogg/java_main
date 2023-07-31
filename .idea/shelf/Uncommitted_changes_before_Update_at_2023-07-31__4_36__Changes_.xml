@@ -1,0 +1,29 @@
+<changelist name="Uncommitted_changes_before_Update_at_2023-07-31_오후_4_36_[Changes]" date="1690788974890" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-31_오후_4_36_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2023-07-31 오후 4:36 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/lombok/MemberServiceimpl.class" />
+    <option name="AFTER_PATH" value="workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/lombok/MemberServiceimpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-31_오후_4_36_[Changes]/MemberServiceimpl.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/lombok/MemberApp.class" />
+    <option name="AFTER_PATH" value="workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/lombok/MemberApp.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-31_오후_4_36_[Changes]/MemberApp.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+    <option name="AFTER_PATH" value="workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-31_오후_4_36_[Changes]/org.eclipse.core.resources" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/lombok/Member.class" />
+    <option name="AFTER_PATH" value="workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/lombok/Member.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-31_오후_4_36_[Changes]/Member.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/lombok/MemberDAOImpl.class" />
+    <option name="AFTER_PATH" value="workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/lombok/MemberDAOImpl.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-07-31_오후_4_36_[Changes]/MemberDAOImpl.class" />
+  </binary>
+</changelist>
