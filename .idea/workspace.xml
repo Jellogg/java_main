@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="81Day">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/webapp/hewon/hewonListInterfaceSelect.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/webapp/hewon/hewonListInterfaceSelect.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/.springBeans" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/.springBeans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/lombok/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/lombok/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/lombok/MemberApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/lombok/MemberApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/lombok/MemberDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/lombok/MemberDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/lombok/MemberServiceimpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill05/lombok/MemberServiceimpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/m2e-wtp/web-resources/META-INF/maven/xyz.itwill/controller/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/m2e-wtp/web-resources/META-INF/maven/xyz.itwill/controller/pom.properties" afterDir="false" />
-    </list>
+    <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="77Day" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,20 +91,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686799568957</updated>
-    </task>
-    <task id="LOCAL-00044" summary="62Day">
-      <created>1688366489123</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1688366489123</updated>
-    </task>
-    <task id="LOCAL-00045" summary="62Day">
-      <created>1688366505498</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1688366505498</updated>
     </task>
     <task id="LOCAL-00046" summary="62Day">
       <created>1688371385778</created>
@@ -449,7 +421,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690770238367</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="77Day">
+      <created>1690788970971</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1690788970971</updated>
+    </task>
+    <task id="LOCAL-00094" summary="77Day">
+      <created>1690789399814</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1690789399814</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,14 +468,14 @@
     <MESSAGE value="71Day" />
     <MESSAGE value="72Day" />
     <MESSAGE value="73Day" />
-    <MESSAGE value="77Day" />
     <MESSAGE value="76Day" />
     <MESSAGE value="what" />
     <MESSAGE value="78Day" />
     <MESSAGE value="79Day" />
     <MESSAGE value="80Day" />
     <MESSAGE value="81Day" />
-    <option name="LAST_COMMIT_MESSAGE" value="81Day" />
+    <MESSAGE value="77Day" />
+    <option name="LAST_COMMIT_MESSAGE" value="77Day" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
