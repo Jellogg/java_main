@@ -16,6 +16,8 @@
 		<config>src/main/resources/05-3_autowire.xml</config>
 		<config>src/main/resources/05-4_diAnnotation.xml</config>
 		<config>src/main/resources/05-5_lombok.xml</config>
+		<config>src/main/resources/07-3_email.xml</config>
+		<config>src/main/resources/07-4_timer.xml</config>
 	</configs>
 	<autoconfigs>
 		<config>src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</config>
