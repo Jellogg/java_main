@@ -8,7 +8,7 @@ public class EmailSendApp {
 		ApplicationContext context=new ClassPathXmlApplicationContext("07-3_email.xml");
 		EmailSendBean bean=context.getBean("emailSendBean", EmailSendBean.class);
 		System.out.println("==========================================================");
-		bean.sendEmail("ocj1778@hanmail.net", "메일 전송 테스트"
+		bean.sendEmail("tokkissi0918@naver.com", "메일 전송 테스트"
 			, "<h1>JavaMail 기능을 사용하여 전달된 이메일입니다.<h1>");
 		System.out.println("==========================================================");
 		((ClassPathXmlApplicationContext)context).close();			

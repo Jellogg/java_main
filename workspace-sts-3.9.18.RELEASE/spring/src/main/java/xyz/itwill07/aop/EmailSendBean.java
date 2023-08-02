@@ -54,18 +54,3 @@ public class EmailSendBean {
 		return email;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
