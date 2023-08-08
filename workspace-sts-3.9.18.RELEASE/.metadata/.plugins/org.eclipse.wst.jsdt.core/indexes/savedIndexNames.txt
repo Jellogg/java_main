@@ -3,7 +3,6 @@ INDEX VERSION 1.4+C:\Users\user\IdeaProjects\java_main\workspace-sts-3.9.18.RELE
 2547121338.index
 1596345803.index
 1093367955.index
-608352324.index
 2749753719.index
 1235992041.index
 1596345803.index
