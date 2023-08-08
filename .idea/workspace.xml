@@ -6,7 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="c7527cf4-097f-4b62-8dd0-2273a848cfbe" name="Changes" comment="87Day">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jdt.core/participantsIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jdt.core/participantsIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1596345803.index" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1596345803.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.wst.validation/dep.index" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/.metadata/.plugins/org.eclipse.wst.validation/dep.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/java/xyz/itwill10/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/java/xyz/itwill10/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/java/xyz/itwill10/dao/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/java/xyz/itwill10/dao/StudentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/java/xyz/itwill10/dao/StudentDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/java/xyz/itwill10/dao/StudentDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/java/xyz/itwill10/dto/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/java/xyz/itwill10/dto/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill10/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill10/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill10/dao/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill10/dao/StudentDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill10/dao/StudentDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill10/dao/StudentDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill10/dto/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/workspace-sts-3.9.18.RELEASE/spring/target/classes/xyz/itwill10/dto/Student.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,13 +113,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686799568957</updated>
-    </task>
-    <task id="LOCAL-00059" summary="66Day">
-      <created>1688954386529</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1688954386529</updated>
     </task>
     <task id="LOCAL-00060" summary="67Day">
       <created>1688956982562</created>
@@ -438,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691398767154</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="87Day">
+      <created>1691462663894</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1691462663894</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
