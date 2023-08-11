@@ -22,10 +22,9 @@
 		<config>src/main/resources/08_dao.xml</config>
 		<config>src/main/webapp/WEB-INF/spring/springMVC/mvc-context1.xml</config>
 		<config>src/main/webapp/WEB-INF/spring/springMVC/mvc-context2.xml</config>
+		<config>src/main/java/xyz/itwill10/mapper/FileBoardMapper.xml</config>
 	</configs>
 	<autoconfigs>
-		<config>src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</config>
-		<config>src/main/webapp/WEB-INF/spring/root-context.xml</config>
 	</autoconfigs>
 	<configSets>
 	</configSets>
