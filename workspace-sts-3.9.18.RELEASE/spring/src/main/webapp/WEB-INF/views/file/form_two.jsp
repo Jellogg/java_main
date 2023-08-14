@@ -18,7 +18,7 @@
 		</tr>
 		<tr>
 			<td>업로더 파일</td>
-			<%-- multiple 속성 : 파일을 여러 개 입력받아 전달하기 위한 기능을 제공하는 속성 --%>	
+			<%-- multiple 속성 : 파일을 여러 개 입력 받아 전달하기 위한 기능을 제공하는 속성 --%>	
 			<td>
 				<input type="file" name="uploadFileList" multiple="multiple">
 				<span style="color: red;">* 파일 여러개를 입력할 수 있습니다.</span>
