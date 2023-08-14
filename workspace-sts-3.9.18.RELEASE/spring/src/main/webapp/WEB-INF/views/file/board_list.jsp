@@ -89,7 +89,7 @@ th, td {
 	}
 	
 	function fileDelete(idx) {
-		if(confirm("자료를 정말로 삭제 하시겠습니까?")) {
+		if(confirm("자료를 정말 삭제 하시겠습니까?")) {
 			location.href="<c:url value="/file/delete"/>?idx="+idx;
 		} 
 	}
