@@ -55,7 +55,7 @@ div {
 	<%-- Header 영역 : 페이지 머릿부 - 로고, 메뉴 등 --%>
 	<div id="header">
 		<%-- 
-		<h1><a href="index.jsp">쇼핑몰</a></h1>
+		<h1><a href="index.jsp">쇼핑드림즈</a></h1>
 		<div id="menu">
 			<a href="login.jsp">로그인</a>&nbsp;&nbsp;
 			<a href="join.jsp">회원가입</a>&nbsp;&nbsp;

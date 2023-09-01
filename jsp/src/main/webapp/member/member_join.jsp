@@ -57,8 +57,10 @@ legend {
 <%-- => 0 : 아이디 중복 검사 미실행 또는 아이디 중복 - 아이디 사용 불가능 --%>
 <%-- => 1 : 아이디 중복 검사 실행 및 아이디 미중복 - 아이디 사용 가능 --%>
 <input type="hidden" id="idCheckResult" value="0">
+
 <fieldset>
-	<legend>회원가입 정보</legend>
+	<legend>회원가입</legend>
+	
 	<ul>
 		<li>
 			<label for="id">아이디</label>
@@ -84,6 +86,7 @@ legend {
 			<input type="text" name="name" id="name">
 			<div id="nameMsg" class="error">이름을 입력해 주세요.</div>
 		</li>
+		
 		<li>
 			<label for="email">이메일</label>
 			<input type="text" name="email" id="email">
@@ -128,6 +131,7 @@ legend {
 	<button type="reset">다시입력</button>
 </div>
 </form>
+
 <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 <script type="text/javascript">
 $("#id").focus();

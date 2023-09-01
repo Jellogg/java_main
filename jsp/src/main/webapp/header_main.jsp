@@ -21,7 +21,7 @@
 	<a href="<%=request.getContextPath() %>/index.jsp?group=cart&worker=cart_list">장바구니</a>&nbsp;&nbsp;
 	<a href="<%=request.getContextPath() %>/index.jsp?group=review&worker=review_list">제품후기</a>&nbsp;&nbsp;
 </div>
-<div id="logo"><a href="<%=request.getContextPath() %>/index.jsp">쇼핑몰</a></div>
+<div id="logo"><a href="<%=request.getContextPath() %>/index.jsp">쇼핑드림즈</a></div>
 <div id="menu">
 	<a href="#">조립컴퓨터</a>
 	<a href="#">중앙처리장치</a>
